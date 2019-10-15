@@ -58,7 +58,7 @@ def dennis_ritchies_language
         }
      }
    end
-    programmer_hash[:dennis_ritchie][:known_for]
+    programmer_hash[:dennis_ritchie][:languages]
 
 
 def adding_matz
@@ -86,6 +86,7 @@ def adding_matz
 
     
 end
+programmer_hash.first 
 
 def changing_alan
 	programmer_hash = 
