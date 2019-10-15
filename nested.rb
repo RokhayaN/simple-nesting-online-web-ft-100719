@@ -114,7 +114,14 @@ def changing_alan
      
      
 end
+programmer_hash.index [1] = [:alan_kay]
+[:alan_kay][:known_for] == "Object Orientation"
 
+
+
+
+  
+  
 def adding_to_dennis
 	programmer_hash = 
  		{
