@@ -114,13 +114,11 @@ def changing_alan
      
      
 end
-programmer_hash.index [1] = [:alan_kay]
-[:alan_kay][:known_for] == "Object Orientation"
+programmer_hash.index [1] = [:alan_kay][:known_for][:languages]
+[:alan_kay][:known_for] = "Object Orientation"
+[:alan_kay][:known_for] = "GUI"
 
-
-
-
-  
+[:alan_kay][:known_for]
   
 def adding_to_dennis
 	programmer_hash = 
